@@ -2,6 +2,8 @@
 
 #Who wants to use Linux for their daily basis for data analysis/scientific project etc.
 
+#MywebPage: https://sites.google.com/view/achintyabera/tweaks
+
 #setting up gmail or outlook on Arch linux installed using Proot container 
 
 #Systems tested on : Proot, Arch linux, Termux
