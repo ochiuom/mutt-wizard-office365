@@ -41,4 +41,5 @@ Patterns "INBOX"
 5. neomutt
 
 #for Switching account press "i1" or "i2" or "i3" depending on the number of emails you have on mutt-wizard
+
 #To get Update from email page, press small letter "o" and to come back to email page again press "Ctrl+c" on terminal
