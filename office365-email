@@ -1,0 +1,23 @@
+#Little different for ofice365 email from University where Duo 2FA login required for email like abc@manchester.ac.uk.
+#Here,  I coudn't use mutt-wizard automated process to succeed. 
+#Therefore, I did it manually every steps and I coudn't find on internet about the total steps to be followed exactly for this kind of accounts.
+
+#Learn from these links http://pnijjar.freeshell.org/2022/mutt-uw-duo/
+#https://wiki.archlinux.org/title/Isync#Using_XOAUTH2
+
+#Step by Step Guide-
+
+1. Request IT-services to enable IMAP for your University account
+2. Follow the first link to edit the mutt_oauth2.py file accordingly and once you execute the command given below, you may not need to follow the rest.
+Here, I used same email address abc@manchester.ac.uk for  editing that file (i.e. for creating gpg key) and for the command below  where you need to 
+provide your University email address.
+
+~/bin/mutt_oauth2.py   ~/.mutt_token--verbose –authorize
+
+3. yay –S cyrus-sasl-xoauth2-git
+4. Manually Add the content of .mbsync file to the end of your existing .mbsync file
+5. Manually Create abc@manchester.ac.uk.muttrc file
+6. Add to abc@manchester.ac.uk.muttrc all those commands, similar to Gmail file : abc@gmail.com.muttrc or Outlook file: abc@outlook.com.muttrc
+7. Manually add a MaildirStore folder for abc@manchester.ac.uk, similar to abc@gmail.com which was automatically created using mutt-wizard. Otherwise you will see MaildirStore error : cannot open store
+8. mbsync -V  abc@manchester.ac.uk
+9. neomutt
