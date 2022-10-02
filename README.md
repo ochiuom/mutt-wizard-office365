@@ -10,6 +10,6 @@
 
 #Learn from this link https://github.com/LukeSmithxyz/mutt-wizard
 
-#for Gmail/Outlook email settings, follow the steps outlined Gmail/outlook file
+#for Gmail/Outlook email settings, follow the steps outlined Gmail_outlook_email file
 
 #for office365 email settings, follow the steps outlined in office365 file
