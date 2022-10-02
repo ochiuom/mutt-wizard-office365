@@ -1,0 +1,28 @@
+#Here, change "user", according to your home folder name
+IMAPAccount abc@manchester.ac.uk
+Host outlook.office365.com
+User abc@manchester.ac.uk
+PassCmd "/home/user/bin/mutt_oauth2.py /home/user/.mutt_token"
+AuthMechs XOAUTH2
+SSLType IMAPS
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+Timeout 120
+PipelineDepth 50
+
+IMAPStore abc@manchester.ac.uk-remote
+Account abc@manchester.ac.uk
+
+MaildirStore abc@manchester.ac.uk-local
+SubFolders Verbatim
+Path /home/user/.local/share/mail/abc@manchester.ac.uk/
+Inbox /home/user/.local/share/mail/abc@manchester.ac.uk/INBOX
+Channel abc@manchester.ac.uk
+Far :abc@manchester.ac.uk-remote:
+Near :abc@manchester.ac.uk-local:
+Patterns "INBOX"
+Create Both
+Expunge Both
+SyncState *
+MaxMessages 0
+ExpireUnread no
+# End profile
