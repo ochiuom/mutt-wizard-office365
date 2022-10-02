@@ -32,10 +32,9 @@ Patterns "INBOX"
 
 #Similar steps for outlook.com email from Microsoft like abc@outlook.com
 
-
-
- 
-
-
-
+1. gpg --full-gen-key
+2. pass init abc@outlook.com
+3. mw -a abc@outlook.com 
+4. mbsync -V abc@outlook.com
+5. neomutt
 
