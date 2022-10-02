@@ -8,7 +8,11 @@
 
 #Systems tested on : Proot, Arch linux, Termux
 
-#Learn from this link https://github.com/LukeSmithxyz/mutt-wizard
+#Learn from this link-  https://github.com/LukeSmithxyz/mutt-wizard
+
+#Learn from this link- http://pnijjar.freeshell.org/2022/mutt-uw-duo/
+
+#Learn from this link- https://wiki.archlinux.org/title/Isync#Using_XOAUTH2
 
 #for Gmail/Outlook email settings (abc@gmail.com or abc@outlook.com), follow the steps outlined Gmail_outlook_email file
 
