@@ -1,4 +1,4 @@
-#Little different for ofice365 email from University where Duo 2FA login required for email like abc@manchester.ac.uk.
+#Little different settings required for ofice365 email from University where Duo 2FA login required for email like abc@manchester.ac.uk.
 #Here, I coudn't use mutt-wizard automated process to succeed. 
 #Therefore, I did it manually every steps and I coudn't find on internet about the total steps to be followed exactly for this kind of accounts.
 
