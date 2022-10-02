@@ -10,7 +10,7 @@
 #----------------------------------------------------------------------------------------------------------------------------------
 1. Request IT-services to enable IMAP for your University account
 2. Follow the first link to edit the mutt_oauth2.py file accordingly and once you execute the command given below, you may not need to follow the rest.
-Here, I used same email address abc@manchester.ac.uk for editing that file (i.e. for creating gpg key) and for the command below  where you need to 
+Here, I used same email address abc@manchester.ac.uk for editing that file (i.e. for creating gpg key) and for the command below where you need to 
 provide your University email address.
 
 ~/bin/mutt_oauth2.py   ~/.mutt_token--verbose –authorize
