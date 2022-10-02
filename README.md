@@ -1,3 +1,13 @@
+#Arch-linux-on-Android, I am not a developer. Just making easy for those like me Coming from research/academic community 
+
+#Who wants to use Linux for their daily basis for data analysis/scientific project etc.
+
+#setting up gmail or outlook on Arch linux installed using Proot container 
+
+#Systems tested on : Proot, Arch linux, Termux
+
+#Learn from this link https://github.com/LukeSmithxyz/mutt-wizard
+
 #Step by Step commands to follow
 1. yay –S mutt-wizard
 2. gpg --full-gen-key
