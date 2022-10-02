@@ -9,16 +9,16 @@
 
 #for sending email put in fish/bash config file
 
-4. export EDITOR=nvim
+ export EDITOR=nvim
 
 #Change to .mbsync file, Remove "[Gmail]All email" from Patterns section, Just keep 
 
-5. Patterns "INBOX"
+Patterns "INBOX"
 
 #After that, the size of the downloaded gmail will be 1/3 of actual gmail space
 
-6. mbsync -V abc@gmail.com
-7. neomutt
+5. mbsync -V abc@gmail.com
+6. neomutt
 
 #Similar steps for outlook.com email from Microsoft like abc@outlook.com
 
